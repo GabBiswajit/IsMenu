@@ -1,0 +1,15 @@
+name: IslandMenu
+api: 4.0.0
+main : Biswajit\Menu
+version: 1.0.0
+author: Biswajit
+
+commands:
+  sbui:
+    description: Open Island Menu For Manage Your Island And His Settings
+    permission: sbui.cmd
+    
+permissions:
+  sbui.cmd:
+    description: Permission to use sbui command
+    default: true
