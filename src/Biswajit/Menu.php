@@ -110,7 +110,7 @@ class Menu extends PluginBase implements Listener {
 
         case 0:
 
-            $this->getServer()->dispatchCommand($player, "is create "/$name/"");
+            $this->getServer()->dispatchCommand($player, "is create "\$name\"");
 
         break;
 
@@ -128,7 +128,7 @@ class Menu extends PluginBase implements Listener {
 
         case 3:
 
-            $this->getServer()->dispatchCommand($player, "is delete "/$name/"");
+            $this->getServer()->dispatchCommand($player, "is delete "\$name\"");
 
         break;
 
