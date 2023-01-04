@@ -4,7 +4,7 @@ namespace Biswajit;
 
 use pocketmine\Server;
 use pocketmine\player\Player;
-use Biseajit\utils\Utils as Utils;
+use Biswajit\utils\Utils as Utils;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use jojoe77777\FormAPI\CustomForm;
