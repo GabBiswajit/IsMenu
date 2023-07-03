@@ -32,11 +32,11 @@ class Menu extends PluginBase implements Listener {
   }
   
   public function sbui(Player $player){
-    $form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createSimpleForm(function (Player $player, int $data = null){
-
-      if($data === null){
-				return true;
-			}
+    $form = new SimpleForm(function(Player $player, $data){
+            if(is_null($data)){
+                PluginUtils::PlaySound($player, "random.chestclosed", 1, 1);
+                return true;
+	    }
       switch($data){
         case 0:
             $this->gs($player);
