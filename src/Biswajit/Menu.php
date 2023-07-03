@@ -86,7 +86,7 @@ class Menu extends PluginBase implements Listener {
         break;
       }
     });
-    $form->setTitle("§l§cPC-GENERAL SETTINGS");
+    $form->setTitle("§l§cGENERAL SETTINGS");
     $form->addButton("§l§bCREATE ISLAND\n§l§d» §r§8Tap To Create", 1, "https://www.clipartmax.com/png/full/162-1624622_brenz-block-is-a-skyblock-minecraft-logo.png");
     $form->addButton("§l§bJOIN ISLAND\n§l§d» §r§8Tap To Join", 1, "https://www.clipartmax.com/png/full/162-1624622_brenz-block-is-a-skyblock-minecraft-logo.png");
     $form->addButton("§l§bVISIT ISLAND\n§l§d» §r§8Tap To Visit", 1, "https://www.clipartmax.com/png/full/162-1624622_brenz-block-is-a-skyblock-minecraft-logo.png");
@@ -120,7 +120,7 @@ class Menu extends PluginBase implements Listener {
         break;
       }
     });
-    $form->setTitle("§l§cPC-PLAYER SETTINGS");
+    $form->setTitle("§l§cPLAYER SETTINGS");
     $form->addButton("§l§bINVITE PLAYER\n§l§d» §r§8Tap To Invite", 1, "https://pngimg.com/uploads/minecraft/minecraft_PNG63.png");
     $form->addButton("§l§bACCEPT INVITE\n§l§d» §r§8Tap To Accept", 1, "https://pngimg.com/uploads/minecraft/minecraft_PNG63.png");
     $form->addButton("§l§bCHAT\n§l§d» §r§8Tap To Chat", 1, "https://pngimg.com/uploads/minecraft/minecraft_PNG63.png");
