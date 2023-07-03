@@ -1,7 +1,7 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ayushbuai/IsMenu
 build-by-default: true
 branches:
-- main
+- PM5
 projects:
   IsMenu:
     path: ""
